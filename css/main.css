@@ -1,0 +1,6 @@
+@import url(bar/logo.css);
+@import url(kitchen/logo.css);
+
+body {
+    background-color: #fcf3e9;
+}

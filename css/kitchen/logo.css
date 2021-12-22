@@ -1,0 +1,22 @@
+
+#kitchen_logo_container {
+    display: inline-block;
+    position: relative;
+    margin-top: 15%;
+    left: 5%;
+    width: 25vw;
+}
+
+#kitchen_logo_spacing {
+    margin-top: 100%;
+}
+
+#kitchen_logo_elements {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+

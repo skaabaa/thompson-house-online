@@ -1,0 +1,145 @@
+
+#bar_logo_container {
+    display: inline-block;
+    position: relative;
+    margin-top: 15%;
+    left: 5%;
+    width: 25vw;
+}
+
+#bar_logo_container:hover #bar_logo_element_olive {
+    display: block;
+}
+
+#bar_logo_container:hover #bar_logo_element_olivepit {
+    display: block;
+}
+
+#bar_logo_container:hover #bar_logo_element_water {
+    display: block;
+}
+
+#bar_logo_spacing {
+    margin-top: 100%;
+}
+
+#bar_logo_elements {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #222;
+}
+
+#bar_logo_element_base {
+    position: absolute;
+    background-color: grey;
+    width: 30%;
+    height: 1%;
+    left: 35%;
+    bottom: 10%;
+    border-radius: 100% 100% 0% 0%; /* option: 0% 0%; */
+}
+
+#bar_logo_element_stem {
+    position: absolute;
+    background-color: grey;
+    bottom: 10%;
+    height: 31%;
+    left: 47.5%;
+    width: 5%;
+}
+
+#bar_logo_element_lt {
+    position: absolute;
+    left: 18%;
+    width: 0;
+    height: 0;
+    bottom: 41%;
+    border-left: 1vw solid grey;
+    border-bottom: 7vw solid grey;
+    border-right: 7.5vw solid transparent;
+}
+
+#bar_logo_element_lb {
+    position: absolute;
+    left: 17.5%;
+    width: 0;
+    height: 0;
+    bottom: 41%;
+    border-right: 1vw solid #222;
+    border-bottom: 7vw solid #222;
+    border-right: 7.5vw solid transparent;
+}
+
+#bar_logo_element_rt {
+    position: absolute;
+    right: 18%;
+    width: 0;
+    height: 0;
+    bottom: 41%;
+    border-right: 1vw solid grey;
+    border-bottom: 7vw solid grey;
+    border-left: 7.5vw solid transparent;
+}
+
+#bar_logo_element_rb {
+    position: absolute;
+    right: 17.5%;
+    width: 0;
+    height: 0;
+    bottom: 41%;
+    border-left: 1vw solid #222;
+    border-bottom: 7vw solid #222;
+    border-left: 7.5vw solid transparent;
+}
+
+#bar_logo_element_water {
+    position: absolute;
+    left: 19%;
+    top: 37.5%;
+    height: 1%;
+    width: 62%;
+    background-color: #12CCCC;
+    /* display: none; */
+}
+
+#bar_logo_element_rim {
+    position: absolute;
+    left: -12.5%;
+    bottom: 31%;
+    height: 1%;
+    width: 62%;
+    background-color: grey;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#bar_logo_element_olive {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    right: 50%;
+    top: 32.5%;
+    background-color: #a0d6b4;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* display: none; */
+}
+
+#bar_logo_element_olivepit {
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    right: 56%;
+    top: 33.5%;
+    background-color: #ff471a;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    /* display: none; */
+}
